@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;text-decoration: none;
+     list-style: none;
+}
+
+
+
+
+body{
+    background-image: url(/img/Frame\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav img{
+    width: 180px;
+    height: 60px;
+    margin: 20px 30px 10px 100px;
+    cursor: pointer;
+}
+
+nav ul{
+margin: 35px 100px 10px 30px;
+}
+
+.navegacao li{
+    display: inline;
+    margin: 25px;
+}
+
+.navegacao a{
+    font: 600 normal 16px 'Poppins';
+    color: #000000;
+
+}
+
+.navegacao a:hover{
+    color: #ffffff;
+}
+
+section{
+display: flex;
+}
+.conteudo-esquerda, .conteudo-direita{
+    flex-basis: 70%;
+}
+
+.conteudo-direita img{
+    margin: 0px;
+    height: 700px;
+}
+.conteudo-esquerda img{
+    height: 120px;
+    margin: 160px 0px 0px 100px;
+}
+
+.conteudo-esquerda p{
+    color: #ffffff;
+    margin: 10px 0px 0px 100px;
+}
+
+.imgs{
+    margin: 10px 70px;
+    display: flex
+}
+
+.imgs img{
+    margin: 0px;
+    
+}
+
+.famarelo{
+    background-image: url(/img/Frame\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.fverde{
+        background-image: url(/img/Frame\ 8.png);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
