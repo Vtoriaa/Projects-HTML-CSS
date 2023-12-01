@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: none;
+    font-family: 'Poppins';
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+:root{
+    --cor1:#64f0d6;
+    --cor2:#35b9a1;
+    --cor3:#ffffff;
+    --cor4:#353535;
+    
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--cor1);
+}
+
+.fa-solid{
+    margin-top: 5px;
+    font-size: 30px;
+    color: brown;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+
+    display: flex;
+    margin: 20px 8em;
+    font: bold normal 18px 'Poppins';
+}
+
+.logo strong{
+    font: 900 normal 25px 'Poppins';
+}
+
+.logo h1{
+    font: 300 normal 25px 'Poppins';
+}
+
+.navegacao{
+    display: flex;
+    margin: 15px 8em;
+}
+
+.navegacao li{
+    font: 400 normal 16px 'Poppins';
+    margin: 15px;
+}
+
+.home{
+    display: flex;
+}
+
+.cont_direita, .cont_esquerda{
+    flex-basis: 50%;
+}
+
+.cont_esquerda img{
+    padding: 30px 8em;
+    height: 600px;
+}
+
+.cont_direita{
+    margin: auto;
+}
+
+.h2{
+    width: 70%;
+    font: 700 normal 40px 'Poppins';
+    color: var(--cor4);
+    filter: drop-shadow(3px 1px 1px #26252592);
+}
+
+.prgf{
+    width: 80%;
+    margin: 15px 0px;
+    font: 300 normal 16px 'Poppins';
+}
+
+.btn{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border: 2px solid var(--cor2);
+    color: var(--cor2);
+    background-color: transparent;
+    box-shadow: 1px 2px 2px;
+    margin: 10px 0px;
+}
+
+.homed{
+    display: flex;
+    justify-content: center;
+}
+
+.d1{
+    margin: 20px;
+    width: 220px;
+    height: 180px;
+    background-color: transparent;
+    border: 3px solid var(--cor2);
+    box-shadow: 1px 1px 4px var(--cor2);
+}
+
+.d1 i{
+    margin: 10px 80px;
+    font-size: 45px;
+    color: var(--cor2)
+}
+
+.d1 h3{
+    text-align: center;
+    font: 700 normal 36px 'Poppins';
+    color: var(--cor4);
+}
+
+.d1 p{
+    text-align: center;
+}
+
+#services div{
+    justify-content: center;
+}
+
+.hr2{
+    margin: 30px;
+    text-align: center;
+    font: 700 normal 40px 'Poppins';
+    text-transform: uppercase;
+    color: var(--cor2);
+    filter: drop-shadow(3px 1px 1px #26252592);
+}
+
+
+.span{
+    font: 700 normal 40px 'Poppins';
+    text-transform: uppercase;
+    color: var(--cor4);
+}
+
+.servic_ctt, .servic2{
+    display: flex;
+
+}
+
+.d2{
+    margin: 40px;
+    width: 320px;
+    height: 250px;
+    background-color: transparent;
+    border: 3px solid var(--cor2);
+    box-shadow: 1px 1px 4px var(--cor2);
+}
+
+.d2 i{
+    margin: 10px;
+    font-size: 45px;
+    color: var(--cor2)
+}
+
+.d2 h3{
+    margin: 10px;
+    font: 700 normal 20px 'Poppins';
+    color: var(--cor4);
+}
+
+.d2 p{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.d2 .btn{
+    margin: 10px;
+}
+
+.about_ctt{
+    display: flex;
+}
+
+.about_esquerda, .about_direita{
+    flex-basis: 50%;
+}
+.about_ctt h2{
+    margin: 15px;
+}
+
+.about_direita{
+    margin: 100px 10px;
+}
+
+.doutores_perfil, .doutores_perfil2{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil_dct1{
+    margin: 40px;
+    width: 320px;
+    height: 360px;
+    background-color: transparent;
+    border: 3px solid var(--cor2);
+    box-shadow: 1px 1px 4px var(--cor2);
+}
+
+.perfil_img{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+
+.img_doctors{
+    height: 200px;
+    border: 2px solid #35b9a1;
+    border-radius: 5px;
+}
+
+.perfil_dct1 h3{
+    color: var(--cor4);
+    font: 700 normal 20px 'Poppins';
+    text-align: center;
+    margin-top: 10px;
+}
+
+.perfil_dct1 p{
+    text-align: center;
+    color: var(--cor2);
+    font: 300 normal 16px 'Poppins';
+}
+
+.icones_dct{
+    display: flex;
+    justify-content: center;
+}
+
+.icones_dct i{
+    color: var(--cor2);
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid var(--cor2);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#appointment{
+}
+
+.appointment_ctt{
+    display: flex;
+}
+
+
+.appointment_esquerda, .appointment_direita{
+    flex-basis: 50%;
+
+}
+
+.appointment_esquerda img{
+    padding: 10px 8em;
+    height: 600px;
+}
+.appointment_direita{
+
+}
+
+.formulario{
+    margin: 70px 10px;
+    width: 520px;
+    height: 450px;
+    background-color: transparent;
+    border: 3px solid var(--cor2);
+    box-shadow: 1px 1px 4px var(--cor2);
+
+}
+
+.formulario p{
+    text-align: center;
+    margin: 30px ;
+}
+
+.formulario h2{
+    margin: 10px;
+    color: var(--cor4);
+    text-align: center;
+    font: 700 normal 25px 'Poppins';
+}
+
+.formulario form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.formulario input{
+    height: 40px;
+    margin: 5px;
+    color: var(--cor4);
+    padding: 2px 10px;
+    border: 2px solid var(--cor2);
+    border-radius: 5px;
+}
+
+.formulario button{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: #d6f4ee;
+    color: #353535;
+}
+
+
+
