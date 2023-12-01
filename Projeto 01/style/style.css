@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    color: #ffffff;
+    width: 100%;
+    background: linear-gradient(to top, #00000099 50%,  #00000099 50%  ), url(/img/imagemfundo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800PX;
+}
+nav{
+    display: flex;
+}
+
+nav h1{
+    color: #f18808;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 70px;
+
+}
+
+nav ul{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font: bold normal 15px Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+nav li{
+    margin: 10px 40px;
+}
+
+nav form{
+    padding: 25px;
+    
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #f18808;
+    background: transparent;
+    font: normal normal 14px Arial;
+    float: left;
+    color:#fff;  
+    border-right:none ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; 
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #f18808;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch{
+    outline: none;
+}
+
+main{
+ margin: 130px 80px;
+ 
+}
+
+article{
+    width: 60%;
+    font-family:'Gill Sans', sans-serif;
+
+}
+
+article h2{
+    width: 54%;
+    font:bold normal 55px 'Times New Roma';
+    letter-spacing: 4px;
+    
+}
+
+article span{
+    color: #f18808;
+    font-size: 65px;
+}
+
+article p{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    letter-spacing: 2px;
+    color: #d1cbcb;
+    line-height: 22px;
+    text-align:unset;
+}
+
+article button{
+    width: 140px;
+    height: 40px;
+    color: #575656;
+    font-size: 16px;
+    background-color:#f18808;
+    text-transform: uppercase;
+    border-radius: 8px;
+
+}
+
+.btn2:hover{
+    background-color: #b76421;
+    color: #fff;
+}
+
+
+section{
+    width: 250px;
+    height: 388px;
+    background-color: #575656;
+    background: linear-gradient(to top, #070707db, #111010d3) ;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    margin-top:200px;
+    margin-left:160px ;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+section h2{
+    border: #f18808 solid 2px;
+    width: 230px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    color: #f18808;
+    text-transform: capitalize;
+    background-color: #fff;
+    font: bold normal 18px 'Gill Sans', sans-serif;
+    padding: 5px;
+    margin: 10px;
+
+    
+}
+
+section input{
+    width: 230px;
+    height: 30px;
+    background: transparent;
+    border:1px  #f18808 solid;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font: 300 normal 16px arial, sans-serif;
+
+}
+
+.login{
+    width: 230px;
+    height: 35px;
+    margin: 10px;
+    background-color: #f18808;
+    border-radius: 8px;
+    font: bold normal 16px Arial, sans-serif;
+}
+
+section h3{
+    padding: 10px;
+    font: normal normal 15px Arial, sans-serif;
+    text-align: center;
+}
+
+section span{
+    color: #f18808;
+}
+
+section h4{
+    font: normal normal 14px 'Times New Roman';
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+section ul{
+    display: flex;
+    justify-content: center;
+}
+
+section i{
+    margin: 10px;
+}
