@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a342c01441.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600;700&family=Mukta:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <header class="hdr">
+        <nav class="nav_bar">
+            <img class="logo" src="src/logo-cap.png" alt="Logo Chapeu do mario vermelho com letra M no meio">
+            <ul class="lista_nav">
+                <a href="#"><li>home</li></a>   
+                <a href="pag02.html"><li>sinopse</li></a>
+                <a href="pag03.html"><li>trailer</li></a> 
+                <a href="pag04.html"><li>onde assistir</li></a>
+            </ul>
+            <div class="icone_ms">
+                <a href="https://www.facebook.com/vitoria.florencio.73" target="_blank" rel="external"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_vtoriaa_/" target="_blank" rel="external"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@vtoriaa_" target="_blank" rel="external"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://twitter.com/vtoriaa_6" target="_blank" rel="external"><i
+                        class="fa-brands fa-x-twitter"></i></a>
+            </div> 
+        </nav> 
+    </header>       
+        <main>
+            <section>
+                 <div class="conteudo_esquerda">
+                    <img src="src/logo-movie.png" alt="Banner da animaçaõ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati architecto minima minus ratione commodi quis quam. Alias error libero in repellat deleniti eveniet, vitae ex. Vero veritatis illo dolorem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero similique quia minima ipsam libero harum aut debitis iure eos nam labore, dolor sint obcaecati possimus cumque? Voluptatibus, debitis reiciendis! Repudiandae.</p>
+                    <button class="btn" type="button" onclick=""><a href="https://youtu.be/Cb4WV4aXBpk?si=7xDRhwsDDqzvb2u2" target="_blank" rel="external">assistir trailer</a></button>
+                </div>
+                <div class="conteudo_direita">
+                    <img src="src/mario-and-luigi.png" alt="Imagem Mario e Luigui personagens ani">
+                </div>
+            </section>
+        </main>
+    <div id="fundo">
+        <video loop autoplay muted>
+            <source src="src/background-video.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+
+</html>
